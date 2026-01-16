@@ -1,0 +1,154 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    margin: 0;
+}
+
+header {
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    align-items:center;
+}
+
+header img{
+    width:250px;
+    height:80px;
+
+}
+
+.button {
+    background-color: #36bbce;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    border-radius: 10px;
+    text-decoration: none;
+    align-items:center;
+    margin-right:60px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:white;
+    font-size:25px;
+    padding:10px;
+    border-radius:10px;
+}
+
+h1 {
+    text-align:center;
+    color:white;
+}
+
+p {
+    font-size: 20px;
+}
+
+.info {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin:50px;
+}
+
+article {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 320px;
+    margin: 20px;
+}
+
+.article-but {
+    background-color:#485052;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+}
+
+footer {
+    display:flex;
+    background-color:rgb(167, 169, 170);
+    padding:30px;
+}
+
+footer a {
+    margin:10px;
+}
+
+footer p {
+    margin-left:20px;
+}
+
+article img{
+    max-width: 100%;
+}
+
+footer img {
+    border-radius:20px;
+}
+
+ul{
+    color:white;
+    width:200px;
+}
+
+.info img {
+    border:10px solid darkgray;
+    border-radius:55px;
+    float:right;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.cartinka {
+    text-align:center;
+}
+
+.button1 {
+    background-color: #36bbce;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #000;
+    border-radius: 10px;
+    text-decoration: none;
+    align-items:center;
+    margin-right:60px;
+}
+
+.article-but:hover {
+    background-color: #36bbce;
+}
+
+.nav-link:hover {
+    background-color:darkgray;
+}
+
+.button:hover {
+    background-color:cyan;
+    border:5px dashed orange;
+}
+
+.button1:hover {
+    background-color:cyan;
+    border:5px dashed orange;
+}
+
+footer img:hover {
+    border:3px solid rgb(76, 0, 253);
+}
