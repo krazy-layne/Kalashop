@@ -79,6 +79,8 @@ article {
     text-decoration:none;
     color:white;
     font-size:20px;
+    border-radius:10px;
+
 }
 
 footer {
@@ -101,6 +103,7 @@ article img{
 
 footer img {
     border-radius:20px;
+
 }
 
 .info article {
@@ -109,7 +112,7 @@ footer img {
 }
 
 .article-but:hover {
-    background-color: #36bbce;
+    background-color: darkgray;
 }
 
 .nav-link:hover {
@@ -117,17 +120,22 @@ footer img {
 }
 
 .button:hover {
-    background-color:cyan;
-    border:5px dashed orange;
+    background-color:gray;
+    border:5px dashed darkgray;
 }
 
 .info article:hover {
     border-radius:25px;
     opacity:1;
-    border:8px dashed orange;
+    border:8px dashed darkgray;
 }
 
 footer img:hover {
     border:3px solid rgb(76, 0, 253);
 }
 
+.kalash img {
+    margin:30px auto;
+    display:block;
+
+}
